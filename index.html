@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/webslides.css">
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
     <title>ML Workshop</title>
+
+    <style>
+        .rounded-corner {
+            border-radius: 100px;
+        }
+    </style>
 </head>
 
 <body>
@@ -42,15 +49,33 @@
             <!-- Intro Slide -->
             <section class="bg-apple aligncenter">
                 <div class="warp size-50 content-center">
+                    <h1 class="aligncentet">
+                        Speakers
+                    </h1><br>
+
                     <div class="grid vertical-align">
                         <div class="column">
+                            <img src="images/hp77.jpg" class="size-40 content-center rounded-corner">
+                            <a rel="external" href="https://twitter.com/tweetsbyhp77" title="Twitter">
+                                <h2>@hp_77</h2>
+                            </a><br><br>
 
-                            <h2>hp-77</h2>
-                            <h2>Raghav</h2>
+                            <img src="images/rk.jpg" class="size-40 content-center rounded-corner">
+                            <a rel="external" href="https://twitter.com/rkeccentric" title="Twitter">
+                                <h2>@rkeccentric</h2>
+                            </a>
                         </div>
+                        <!-- col2 -->
                         <div class="column">
-                            <h2>Taksh</h2>
-                            <h2>Atul</h2>
+                            <img src="images/hp77.jpg" class="size-40 content-center rounded-corner">
+                            <a rel="external" href="https://twitter.com/tensor_boy" title="Twitter">
+                                <h2>tensor_boy</h2>
+                            </a><br><br>
+
+                            <img src="images/hp77.jpg" class="size-40 content-center rounded-corner">
+                            <a rel="external" href="https://twitter.com/tensor_boy" title="Twitter">
+                                <h2>@atul</h2>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -76,38 +101,107 @@
                 </div>
             </section>
             <!-- Slide 2 -->
-            <section>
+            <section class="bg-apple">
                 <div class="wrap size-50 aligncenter">
                     <h1>Definations of ML</h1>
-                    <div class="bg-white shadow">
-                        <ul class="flexblock reasons">
+                    <div class="bg-light">
+                        <ul class="flexblock">
                             <li>
-                                <h2>First one</h2>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sit ipsum
-                                    possimus ab ipsa iure? Fugiat placeat ad provident atque?
+                                    Field of study that gives computers the ability to learn without being explicitly
+                                    programmed
                                 </p>
                             </li>
                             <li>
-                                <h2>First one</h2>
+                                <!-- <p>
+                                    A computer program is said to learn from experience E with respect to some task T
+                                    and some performance measure P, if its
+                                    performance on T, as measured by P, improves with experience E.
+                                </p> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section> <!-- Slide 2 -->
+            <section class="bg-apple">
+                <div class="wrap size-50 aligncenter">
+                    <h1>Definations of ML</h1>
+                    <div class="bg-light">
+                        <ul class="flexblock">
+                            <li>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, sit ipsum
-                                    possimus ab ipsa iure? Fugiat placeat ad provident atque?
+                                    Field of study that gives computers the ability to learn without being explicitly
+                                    programmed
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    A computer program is said to learn from experience E with respect to some task T
+                                    and some performance measure P, if its
+                                    performance on T, as measured by P, improves with experience E.
                                 </p>
                             </li>
                         </ul>
                     </div>
+                </div>
+            </section>
 
+
+            <!--  Types of Machine Learning -->
+            <section class="bg-apple aligncenter">
+                <h1>Type of Machine Learning</h1>
+            </section>
+
+            <section class="bg-apple aligncenter">
+                <ul class="flexblock gallery">
+                    <li>
+                        <a href="#" title="Supervised Learning">
+                            <figure>
+                                <img alt="Supervised Learning" src="">
+                                <figcaption>
+                                    <h2>Why WebSlides?</h2>
+                                    <time datetime="2017-01-08T16:21:44-08:00">Jan 08, 2017</time>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section>
+                <div class="wrap">
+                    <h3>This is how machine learn Supervised</h3>
+                    <ul class="flexblock steps">
+                        <li>
+                            <img src="images/teaching.jpg" class="size-60">
+                            <h2>Train</h2>
+                        </li>
+                        <li>
+                            <div class="process step-2"></div>
+                            <img src="images/homework.jpg" class="size-60">
+                            <h2>Test</h2>
+                        </li>
+                        <li>
+                            <div class="process step-3"></div>
+
+                            <img src="images/validation.jpg" class="size-60">
+                            <h2>Validation</h2>
+                        </li>
+
+                    </ul>
                 </div>
             </section>
 
         </article>
     </main>
 
-    <script src="js/webslides.js"></script>
+    <script src=" js/webslides.js"></script>
     <script>
         window.ws = new WebSlides({ loop: false })
     </script>
+    <script defer src="../static/js/svg-icons.js"></script>
+
 </body>
 
 </html>
